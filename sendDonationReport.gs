@@ -62,7 +62,7 @@ function sendDonationReport() {
   };
 
   // Create dates to test whether donations were received between the start of
-  // the previous and the start of the current month.
+  // the previous month and the start of the current month.
   var previousMonthStart = new Date();
   previousMonthStart.setDate(1);
   previousMonthStart.setMonth(previousMonthStart.getMonth() - 1);
