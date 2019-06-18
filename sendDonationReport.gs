@@ -84,7 +84,7 @@ function sendDonationReport() {
     if (date instanceof Date && previousMonthStart <= date && date < currentMonthStart) {
       donationTable.addRow({
         dateString: Utilities.formatDate(date, Session.getScriptTimeZone(), 'MMM d'),
-        donorName: row[columnIndexesForNames['Donor Name']],
+        donorName: row[columnIndexesForNames['Anonymous']] ? 'Anonymous' : row[columnIndexesForNames['Donor Name']],
         donorClassYear: row[columnIndexesForNames['Estimated Class Year']],
         amount: row[columnIndexesForNames['Amount']]
       });
