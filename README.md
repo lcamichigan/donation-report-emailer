@@ -6,8 +6,8 @@ Association](https://lcamichigan.com).
 
 The script is intended to be used in a spreadsheet
 [named](https://developers.google.com/apps-script/reference/spreadsheet/spreadsheet#getsheetbynamename)
-“Donations” with columns named “Date”, “Donor Name”, “Estimated Class Year”, and
-“Amount”. One way to use the script is to:
+“Donations” with columns named “Amount”, “Anonymous”, “Date”, “Donor Name”, and
+“Estimated Class Year”. One way to use the script is to:
 
 1. Open a Google sheet
 
